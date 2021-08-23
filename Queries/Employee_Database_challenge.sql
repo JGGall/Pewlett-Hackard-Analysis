@@ -7,7 +7,7 @@ employees.last_name,
 titles.title,
 titles.from_date,
 titles.to_date
---INTO retirement_titles
+INTO retirement_titles
 FROM employees
 INNER JOIN titles
 ON employees.emp_no = titles.emp_no
@@ -16,31 +16,25 @@ ORDER BY emp_no ASC;
 
 --Deliverable 1 part 2
 --Remove duplicates to get unique titles using DISTINCT ON and starter code
-
--- Use Dictinct with Orderby to remove duplicate rows
+--Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
 last_name,
 title
---INTO unique_titles
+INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, to_date DESC;
-
-
-
 
 --Deliverable 1 part 3
 --Get number of employees by most recent job title who are about to retire
 SELECT COUNT (title),
 title
---INTO retiring_titles
+INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT DESC;
 
-
-
---Deliverable 3
+--Deliverable 2
 --Create a mentorship eligibility table with employees born in 1965
 SELECT DISTINCT ON (emp_no) employees.emp_no, 
 first_name, 
