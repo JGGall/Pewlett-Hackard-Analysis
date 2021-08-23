@@ -10,11 +10,11 @@ Pewlett-Hackard is a giant technology corporation with a correspondingly large n
 
 - The third CSV file from the first deliverable is very concise, breaking down the 90,398 soon-to-be-retiring Pewlett-Hackard employees by current title. These consist of more than 29,000 senior engineers, more than 28,000 senior staff, more than 14,000 engineers, more than 12,000 staff, around 4,500 technique leaders, more than 1700 assistant engineers, and 2 managers.
 
-![retiring_titles.png] (https://github.com/JGGall/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
+![retiring_titles.png](https://github.com/JGGall/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
 - The second deliverable resulted in a CSV file as well. It contains the 1,549 employees who turn 56 years old in 2021, and who are eligible for a mentorship program.
 
-![code for del_2] (url)
+![code for del_2](https://github.com/JGGall/Pewlett-Hackard-Analysis/blob/main/code_for_del_2.png)
 
 - The same mentorship eligibility CSV file contains employee names, numbers, birth dates, current titles and the date on which each employee was hired or promoted to that title, so that file should prove valuable for those who are developing a mentorship program.
 
