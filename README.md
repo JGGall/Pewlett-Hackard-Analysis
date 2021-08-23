@@ -12,7 +12,7 @@ Pewlett-Hackard is a giant technology corporation with a correspondingly large n
 
 ![retiring_titles.png](https://github.com/JGGall/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
-- The second deliverable resulted in a CSV file as well. It contains the 1,549 employees who turn 56 years old in 2021, and who are eligible for a mentorship program.
+- The second deliverable resulted in a CSV file as well. It contains the 1,549 employees who turn 56 years old in 2021, and who are eligible for a mentorship program. The following is the code that produced that table, illustrating how how I filtered by employees who are listed as present employees, and also by employees who were born in the year 1965:
 
 ![code for del_2](https://github.com/JGGall/Pewlett-Hackard-Analysis/blob/main/code_for_del_2.png)
 
